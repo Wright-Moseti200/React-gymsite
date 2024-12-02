@@ -1,0 +1,16 @@
+.footer
+{
+    height:500px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-item2
+{
+    display: flex;
+    align-items: center;
+     height:100%;
+     width:500px;
+     justify-content: space-around;
+}

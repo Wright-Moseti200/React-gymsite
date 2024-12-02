@@ -1,0 +1,66 @@
+.pricing-group
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset
+{
+    height:600px;
+    border-radius: 10px;
+    border:6px solid grey;
+    width:470px;
+    transition: all 90ms linear;
+    padding: 25px;
+}
+hr
+{
+    color: grey;
+}
+
+legend
+{
+    color:white;
+    text-align: center;
+    width:150px;
+    background-color:mediumpurple;
+    padding: 8px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+fieldset:nth-child(2)
+{
+    transform: translateY(-9px);
+    height:619px;
+    border-color: mediumpurple;
+}
+
+
+fieldset button
+{
+    width:60%;
+}
+.button-group2
+{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.h9
+{
+    color:white;
+}
+input
+{
+    font-size: 16px;
+}
+textarea
+{
+     font-size: 16px;
+}

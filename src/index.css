@@ -1,0 +1,18 @@
+*
+{
+margin:none;
+padding: none;
+box-sizing: border-box;
+ font-family: 'Plus Jakarta Sans',
+ system-ui,
+ -apple-system,
+ sans-serif;
+}
+body
+{
+  background-color: rgba(0, 0, 0, 0.853);
+}
+button:hover
+{
+  cursor: pointer;
+}

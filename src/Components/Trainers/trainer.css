@@ -1,0 +1,78 @@
+.trainers
+{
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.trainers-group
+{
+    height:350px;
+    width:295px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trainers-group:nth-child(1)
+{
+    background-image: url("./Gym1.jpg");
+}
+.trainers-group:nth-child(2) {
+    background-image: url("./Gym2.jpeg");
+}
+.trainers-group:nth-child(3) {
+    background-image: url("./Gym3.jpg");
+}
+.trainers-group:nth-child(4) {
+    background-image: url("./Gym1.jpg");
+}
+
+.trainee
+{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 255,0.15);
+    height:90px;
+    border-radius: 0 0px 10px 10px;
+}
+
+.trainee p,h3
+{
+    padding: none;
+    margin: none;
+    line-height: none;
+}
+.trainee p
+{
+    transform: translateY(-50%);
+    font-weight: lighter;
+}
+
+.trainee h3
+{
+    transform: translateY(50%);
+}
+
+.trainers-button 
+{
+    text-align: center;
+}
+
+.trainers-button button
+{
+    background-color: transparent;
+    color:mediumpurple;
+    border:2px solid mediumpurple;
+}

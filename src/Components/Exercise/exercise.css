@@ -1,0 +1,59 @@
+.exercise-group
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap:45px;
+}
+
+.exercise .image
+{
+    height:300px;
+    width:300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url("./Gym1.jpg");
+}
+
+.image2
+{
+    height:300px;
+    width:300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url("./Gym2.jpeg");
+}
+
+.image3 {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url("./Gym3.jpg");
+}
+
+.image4 {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url("./Gym1.jpg");
+}
+
+ .exercise-group
+ {
+   position:relative;
+   bottom:20px;
+ }
+
+ .exercise .par
+ {
+    font-weight: bold;
+    font-size: 20px;
+ }

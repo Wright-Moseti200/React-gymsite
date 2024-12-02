@@ -1,0 +1,79 @@
+.carousel
+{
+    width:100%;
+    height:520px;
+    background-image: url("./Gym1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   display: flex;
+   flex-direction: row;
+}
+.carousel-item
+{
+  display: flex;
+  flex-direction: row;  
+  width: 100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.carousel-content
+{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-content h2
+{
+    color:mediumpurple;
+    font-size: 30px;
+    line-height: 0;
+}
+
+.carousel-content h1 {
+    color: white;
+    font-size: 80px;
+    margin:0,0,0,0;
+    line-height: 0;
+}
+.carousel-content p
+{
+    line-height: 0;
+}
+.carousel-content button
+{
+height:50px;
+width:175px;
+border-radius: 25px;
+}
+.button1
+{
+background-color: transparent;
+color:white;
+transform: scale(1.1);
+display: none;
+transition: all 80ms linear ;
+}
+
+.button2 {
+    display: none;
+    background-color: transparent;
+    color: white;
+    transform: scale(1.1);
+    transition: all 80ms linear;
+}
+.carousel:hover .button1
+{
+display: inline;
+}
+.carousel:hover .button2
+{
+    display: inline;
+}

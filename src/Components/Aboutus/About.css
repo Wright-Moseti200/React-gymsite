@@ -1,0 +1,109 @@
+.About-group
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:20px;
+    justify-content: space-around;
+    position: relative;
+    top:10px;
+}
+
+.about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.15);
+    width:230px;
+    transition: all 90ms linear;
+    height:110px;
+}
+.h1
+{
+    line-height: none;
+    position: relative;
+    top:20px;
+}
+p
+{
+    line-height: none;
+}
+.about:hover
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-evenly;
+}
+
+main div
+{
+    display: flex;
+    flex-direction: column;
+    height:550px;
+    width:400px;
+    background-image: url("./Gym3.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+h3
+{
+    color: white;
+}
+
+main section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:550px;
+}
+
+h2
+{
+    color:white;
+}
+
+.main-section
+{
+    display:flex ;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+.header
+{
+    color:white;
+    font-size: 30px;
+}
+main section button
+{
+    width:210px;
+    background-color: transparent;
+    border:2px solid mediumpurple;
+    color:mediumpurple;
+}
+
+i
+{
+    color:mediumpurple;
+}
+
+.about-subgroup
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+height: 100%;
+width:100%;
+align-items: center;
+transform: translateY(-13%);
+}
